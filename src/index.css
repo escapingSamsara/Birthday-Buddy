@@ -9,23 +9,18 @@
 }
 
 html {
-  font-size: 100%;
-} /*16px*/
-
+  font-size: 16px;
+}
 :root {
   --transition: 0.3s ease-in-out all;
   --max-width: 1120px;
   --fixed-width: 600px;
 }
-
 body {
   background: var(--backgroundColor);
   font-family: system-ui, -apple-system, sans-serif;
   font-weight: 400;
   color: var(--textColor);
-}
-p {
-  margin: 0;
 }
 
 h3,
@@ -33,15 +28,11 @@ h4 {
   margin: 0;
   font-family: var(--headingFont);
   font-weight: 400;
-  line-height: 1;
-  text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
 }
-
 h3 {
   font-size: 1.953rem;
 }
-
 h4 {
   font-size: 1.563rem;
 }
